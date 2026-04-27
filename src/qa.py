@@ -5,7 +5,7 @@ import os
 
 
 def load_qa_resources():
-    """使用绝对路径加载问答所需数据（M4）"""
+
     import os
     import pandas as pd
 
