@@ -4,13 +4,13 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import os
 
-# ==================== 修复中文乱码（Windows专用推荐写法） ====================
+# ==================== 修复中文乱码====================
 plt.rcParams['font.sans-serif'] = ['Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'sans-serif']
 plt.rcParams['axes.unicode_minus'] = False
 
 
 def load_cleaned_data(data_path: str = None):
-    """使用绝对路径加载清洗后的数据（M2）"""
+    
     import os
     print("正在加载清洗后的数据...")
 
