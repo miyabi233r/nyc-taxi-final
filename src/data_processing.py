@@ -18,8 +18,8 @@ def load_data(data_path: str = None, zone_path: str = None):
 
     # === 这里改成你的绝对路径（最重要！）===
     if data_path is None:
-        data_path = r"C:\Users\26779\Videos\桌面\学习\人工智能编程语言\AI_Prog_HW\data\yellow_tripdata_2023-01.parquet"
-        zone_path = r"C:\Users\26779\Videos\桌面\学习\人工智能编程语言\AI_Prog_HW\data\taxi_zone_lookup.csv"
+        data_path = r"data/yellow_tripdata_2023-01.parquet"
+        zone_path = r"data/taxi_zone_lookup.csv"
 
     # 检查文件是否存在
     if not os.path.exists(data_path):
