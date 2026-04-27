@@ -22,7 +22,7 @@ def load_cleaned_data(data_path: str = None):
     import os
     print("正在加载清洗后的数据用于建模...")
 
-    data_path = r"C:\Users\26779\Videos\桌面\学习\人工智能编程语言\AI_Prog_HW\data\cleaned_taxi_data.parquet"
+    data_path = r"data/cleaned_taxi_data.parquet"
 
     if not os.path.exists(data_path):
         raise FileNotFoundError(f"cleaned_taxi_data.parquet 不存在！路径：{data_path}")
